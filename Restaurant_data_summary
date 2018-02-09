@@ -1,3 +1,23 @@
+Restaurant
+
+r_id
+r_name
+r_address
+r_cuisine
+[menu_id]
+r_contact
+r_email
+
+Menu
+m_id
+m_type
+page_count
+[menu_item_id]
+
+Menu Item
+item_id
+item_name
+price
 
 ------------------------------------------------------------------------------------
 Restaurant_List : http://127.0.0.1:5000/rest
