@@ -1,6 +1,6 @@
 Hi there!
 
-This is my first attempt at building a REST API.
+This is my first attempt at building a REST API. :)
 Since I am most comfortable in python, I looked for resources to build a REST API using any python libraries and I found a gem in Flask.
 
 This REST API will simulate part of an online food ordering system. You will be dealing with the following types of objects:
@@ -43,7 +43,7 @@ This starts the server on localhost.
 ------------------------------------------------------------------------------------
 The classes and their URLs and methods have been listed below. Please note the status at the end of each class and accordingly run tests on the server.
 ------------------------------------------------------------------------------------
-
+NOTE: I have used random UUID for each of the ID fields in the database. The sample data shown below will give you an idea of how to structure the URL to test it. I used Postman Monitor to test the API which is why you might see some extra parameters in the curl command.
 
 ------------------------------------------------------------------------------------
 RestaurantList : http://127.0.0.1:5000/rest
@@ -53,6 +53,12 @@ Lists all restaurants in the system
 Methods:
 
 1. GET - The parent dict is printed out containing all the restaurants
+
+curl -X GET \
+  http://localhost:5000/rest\
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 37ec59e5-0787-b0fe-7add-ca116d8419ba' \
 
 Sample GET structure
 [
