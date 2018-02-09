@@ -1,0 +1,38 @@
+{
+    "menu": [
+        {
+            "menuname": "Breakfast",
+            "menuid": "0pP1WAz_Eeittv4AxMAVAQ",
+            "menuitem": [
+                {
+                    "itemid": "2vX-gAz_Eei92f4AxMAVAQ",
+                    "itemname": "Poached Eggs",
+                    "itemprice": 100
+                },
+                {
+                    "itemid": "7KFd3Az_Eeir9f4AxMAVAQ",
+                    "itemname": "Cereal",
+                    "itemprice": 50
+                }
+            ]
+        },
+        {
+            "menuname": "Lunch",
+            "menuid": "9hHBNgz_EeiC8P4AxMAVAQ",
+            "menuitem": [
+                {
+                    "itemid": "avILqAz_EeiyDv4AxMAVAQ",
+                    "itemname": "Lasagna",
+                    "itemprice": 200
+                },
+                {
+                    "itemid": "CHsRYg0AEeicav4AxMAVAQ",
+                    "itemname": "Pasta",
+                    "itemprice": 250
+                }
+            ]
+        }
+    ],
+    "restname": "McHealthy",
+    "restid": "xSsguRncSSaZumo7JpvAQQ"
+}
