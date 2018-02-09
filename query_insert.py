@@ -18,13 +18,13 @@ dynamodb = boto3.resource('dynamodb', region_name='us-west-2', endpoint_url="htt
 
 table = dynamodb.Table('Restaurants')
 
-restid =  "xSsguRncSSaZumo7JpvAQQ"
-restname = "McHealthy"
-response = table.query(KeyConditionExpression=Key('restid').eq(restid))
-new_menu = {"menuid": "Asf3fsdvxSsguRncSS",
-            "menuname": "Brunch",
-            "menuitem": []}
-print(response)
+# restid =  "xSsguRncSSaZumo7JpvAQQ"
+# restname = "McHealthy"
+# response = table.query(KeyConditionExpression=Key('restid').eq(restid))
+# new_menu = {"menuid": "Asf3fsdvxSsguRncSS",
+#             "menuname": "Brunch",
+#             "menuitem": []}
+# print(response)
 # menu = response['Items'][0]["menu"]
 # if menu != None: updated_menu = menu.append(new_menu)
 # else: updated_menu = new_menu
